@@ -38,3 +38,5 @@ Thumbs.db
 *.old
 .idea/
 *.iml
+
+/io_speed/random_text.txt
