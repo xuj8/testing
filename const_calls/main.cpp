@@ -1,7 +1,7 @@
 
 #include <string>
 #include <iostream>
-
+#include <utility>
 
 
 struct DummyStruct {
@@ -48,6 +48,9 @@ int main() {
     std::cout << obj.a << '\n'; // 6
 
     const DummyStruct& new_const_ref_struct = obj.gimme(); // non const version
+
+    // C++20 <utility>
+    std::as_const(obj).gimme(); // const version
 
     std::cout << "Testing new_const_ref_struct\n";
 
