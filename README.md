@@ -1,1 +1,1 @@
-a heaven for the curious minds.
+c++ snippets clearing ambiguities
